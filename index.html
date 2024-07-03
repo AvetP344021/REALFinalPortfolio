@@ -1,0 +1,107 @@
+<html class="pageback">
+    <body class="body">
+        <link rel="stylesheet" href="portfolio.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+ 
+        <nav class="navbar" id="navbar"> 
+            <ul class="navbarleft">
+               <button class="navbtn" id = "about" onclick=scrollToY(yPosition1) ><li>ABOUT ME</li></button>
+               <button class="navbtn" onclick=scrollToY(yPosition2)><li>PORTFOLIO</li></button>
+            </ul>
+            <a class="logo">
+                <img src="smithy.png" class="logoimg">
+            </a>
+            <ul class="navbarright">
+                <button class="navbtn" onclick=scrollToY(yPosition3)><li>COMMISSIONS</li></button>
+                <button class="navbtn" onclick=scrollToY(yPosition4)><li>CONTACTS</li></button>
+            </ul>
+
+        </nav>
+        <div class="buttondiv" id="main"><button class="sidebtn" onclick="openNav()"><img src="sidebtn.png" class="sideimg"></button>
+            </div>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#" class="sidebox" onclick=scrollToY(yPosition1)><img src="smithy.png" class="sidimg"></a>
+                <a href="#" class="sidebox" onclick=scrollToY(yPosition1)>ABOUT ME</a>
+                <a href="#"class="sidebox" onclick=scrollToY(yPosition2)>PORTFOLIO</a>
+                <a href="#"class="sidebox" onclick=scrollToY(yPosition3)>COMMISSIONS</a>
+                <a href="#"class="sidebox" onclick=scrollToY(yPosition4)>CONTACTS</a>
+              </div>
+        <div class="quotetxt">
+            "IN THE END WE RETAIN FROM OUR STUDIES ONLY THAT WHICH WE PRACTICALLY APPLY."   JOHANN VAN GOETHE
+        </div>
+        <div class = "ornate">
+            <img src="medieval.png">
+        </div>
+
+        <div class="carousel">
+            <div class="carousel-item">
+                <div class="slide-image" style="background-image: url('https://media.geeksforgeeks.org/img-practice/banner/mern-full-stack-development-classroom-thumbnail.png?v=19625');"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide-image" style="background-image: url('https://media.geeksforgeeks.org/img-practice/banner/dsa-to-development-coding-guide-thumbnail.png?v=19625');"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide-image" style="background-image: url('https://media.geeksforgeeks.org/img-practice/banner/geeks-classes-live-thumbnail.png?v=19625');"></div>
+            </div>
+            <div class="carousel-item">
+                <div class="slide-image" style="background-image: url('https://media.geeksforgeeks.org/img-practice/banner/gate-crash-course-2024-thumbnail.png?v=19625');"></div>
+            </div>
+        </div>
+
+
+        <div class="bodycontainer">
+            <div class="section1">
+                <h2 class = "title1" id ="myElement">
+                    <img src="aboutme.png">
+                </h2>
+                <div class="aboutcontent">
+                <img src="A7400328.jpg" class="aboutimg">
+                <p class="commtxt">
+                    HELLO, MY NAME IS AVED PAROYAN. I'M A 2024 NEXTECH CATAPULT WITH THE EVANSVILLE COHORT. I LOVE PLAYING ACCORDION. I GOT MY RONDINI IN 2022 AND I'VE BEEN PLAYING IT SINCE. I SOMETIMES WRITE SMALL PIECES OF MUSIC IN MY FREETIME ALTHOUGH THESE ARE OFTEN TIMES PRETTY CRUDE. I ALSO ENJOY FORGING. I USUALLY MAKE SMALL TOOLS OR NECKLACES AND BRACELETS OUT OF SQUARE 1018 MILD STEEL. 
+                </p>
+                </div>
+            </div>
+            <div class="section2">
+                <h2 class = "title2">
+                    <img src="portfolio.png">
+                </h2>
+                <ul class = "projects1">
+                    <li class="p1"><a href="https://avetp344021.github.io/websiteforchangeenglish/" class="p1href">WEBSITE FOR CHANGE</a></li>
+                    <li class="p2"><a href="https://avetp344021.github.io/chooseurown-wip-/" class="p2href">CHOOSE YOUR OWN ADVENTURE</a></li>
+                </ul>
+                <ul class = "projects2">
+                    <li class="p3"><a href="https://avetp344021.github.io/stunning-memory/" class="p2href">ANVIL CLICKER (WIP)</a></li>
+                    <li class="p4">MORE COMING SOON</li>
+                </ul>
+            </div>
+            <div class ="section3">
+                <h2 class = "title3">
+                    <img src="commissions.png">
+                </h2>
+                <div class="commissions">
+                    
+                    <img src="smithy.png" class="commimg">
+                    <p class="commtxt">
+                        I'VE RECENTLY STARTED FORGING PIECES FOR OTHERS AND OPENING UP FOR COMMISSIONS. PRICES VARY FOR SIZE AND COMPLEXITY OF PIECES. IF YOU WISH TO REQUEST A COMMISSION, PROCEED TO CONTACTS AND EMAIL ME!
+                    </p>
+                </div>
+            </div>
+            <div class="section4">
+                <h2 class="title4">
+                    <img src="contacts.png">
+                </h2>
+                <ul class = "text4">
+                    <input class="input" placeholder="EMAIL">
+                </input>
+                <input class="input" placeholder="PHONE NUMBER"></input>
+                <input class="input" placeholder="MESSAGE"></input>
+                </ul>
+            </div>
+        </div>
+   
+        <script src="portfolio.js"></script>
+    </body>
+</html>
